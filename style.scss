@@ -1,0 +1,121 @@
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Next Green
+$nextgreen: #00313E;
+
+// Mobile landscape
+@media only screen and (orientation: landscape) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #8b0000;
+        color: wheat;
+        transition: .2s all ease-in;
+        .home_page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1vh;
+            height: 100vh;
+            margin: 35vh 0 0 0;
+            #courdevelops_logo {
+                width: 20vw;
+                height: 20vw;
+            }
+            .name {
+                font-size: 6vw;
+                color: white;
+                font-weight: bold;
+            }
+            .description {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 4vw;
+                width: 65vw;
+                height: 11vw;
+                background-color: white;
+                border-radius: 5px;
+            }
+            .motto {
+                font-size: 3vw;
+                color: white;
+                text-align: center;
+            }
+        }
+        .learn_more {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 65vw;
+                height: 11vw;
+                background-color: white;
+                border-radius: 5px;
+            a {
+                font-size: 4vw;
+                
+            }
+        }
+    }
+}
+
+// Mobile portrait
+@media only screen and (orientation: portrait) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $darkblue;
+        .home_page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1vh;
+            height: 90vh;
+            #courdevelops_logo {
+                width: 40vw;
+                height: 40vw;
+            }
+            .name {
+                font-size: 8vw;
+                color: white;
+                font-weight: bold;
+            }
+            .description {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 5vw;
+                width: 65vw;
+                height: 11vw;
+                background-color: white;
+                border-radius: 5px;
+            }
+            .motto {
+                font-size: 4vw;
+                color: white;
+                text-align: center;
+            }
+        }
+        .learn_more {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 65vw;
+                height: 11vw;
+                background-color: white;
+                border-radius: 5px;
+            a {
+                font-size: 4vw;
+                
+            }
+        }
+    }
+}
