@@ -78,6 +78,110 @@
     align-items: center;
     background-color: #080E2F;
   }
+  body .nav_section {
+    display: flex;
+    justify-content: space-between;
+  }
+  body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 25vw;
+    margin: 1.5vh 0 0 7vw;
+    border: none;
+    border-radius: 5px;
+    padding: 3vw;
+    background-color: #080E2F;
+    opacity: 0;
+  }
+  body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo.appear {
+    opacity: 1;
+    transition: 0.2s all ease-in;
+  }
+  body .nav_section .the_top_nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #080E2F;
+    position: sticky;
+    top: 0;
+    z-index: 98;
+    height: 15vh;
+    transition: 2s all ease-in-out;
+  }
+  body .nav_section .the_top_nav .you {
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5vh;
+    margin: 3vh 0 0 -60vw;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+  }
+  body .nav_section .the_top_nav .you #name {
+    color: white;
+    font-size: 5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 0vw;
+  }
+  body .nav_section .the_top_nav .you .desc_menu_box {
+    background-color: #36395D;
+    background-color: white;
+    background-color: #080E2F;
+    padding: 0 2vw 0 2vw;
+    border-radius: 5px;
+    border: 2px solid white;
+  }
+  body .nav_section .the_top_nav .you .desc_menu_box #job_description {
+    color: white;
+    font-size: 3.3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  body .nav_section .the_top_nav .hamburgermobile .burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 20vw;
+    border: none;
+    background-color: #080E2F;
+    margin: 3vh -25vw 0 0vw;
+  }
+  body .nav_section .the_top_nav .hamburgermobile .burger #top_hamburger {
+    position: relative;
+    width: 11vw;
+    height: 10vw;
+    transition: 1s all ease-in-out;
+  }
+  body .nav_section .the_top_nav .hamburgermobile .burger #top_hamburger.dissapear {
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+  }
+  body .nav_section .the_top_nav .hamburgermobile .burger #hamburger_close {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    opacity: 0;
+  }
+  body .nav_section .the_top_nav .hamburgermobile .burger #hamburger_close.appear {
+    transition: 0.5s all ease-in;
+    opacity: 1;
+    z-index: 100;
+    background-color: #080E2F;
+  }
+  body .the_top_nav.dissapear {
+    opacity: 0;
+    transition: 1s all ease-out;
+  }
+  body .the_top_nav.appear {
+    opacity: 1;
+    transition: 0.7s all ease-in;
+  }
   body .home_page {
     display: flex;
     flex-direction: column;
@@ -85,6 +189,7 @@
     align-items: center;
     gap: 1vh;
     height: 90vh;
+    margin: -14vh 0 0 0;
   }
   body .home_page #courdevelops_logo {
     width: 40vw;
@@ -124,6 +229,7 @@
     height: 11vw;
     background-color: #36395D;
     border-radius: 5px;
+    margin: -5vh 0 0 0;
   }
   body .learn_more a {
     font-size: 4vw;
