@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
 @media only screen and (orientation: landscape) {
   body {
     display: flex;
@@ -5,8 +6,11 @@
     justify-content: center;
     align-items: center;
     background-color: #8b0000;
+    background-color: #080E2F;
     color: wheat;
     transition: 0.2s all ease-in;
+    gap: 1vh;
+    height: 200vh;
   }
   body .home_page {
     display: flex;
@@ -15,7 +19,7 @@
     align-items: center;
     gap: 1vh;
     height: 100vh;
-    margin: 35vh 0 0 0;
+    margin: 15vh 0 0 0;
   }
   body .home_page #courdevelops_logo {
     width: 20vw;
@@ -25,33 +29,45 @@
     font-size: 6vw;
     color: white;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
   }
   body .home_page .description {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4vw;
-    width: 65vw;
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+    color: #080E2F;
+    width: 55vw;
     height: 11vw;
     background-color: white;
     border-radius: 5px;
+    margin: -8vh 0 0 0;
+    padding: 3vh 1vh 3vh 1vh;
   }
   body .home_page .motto {
     font-size: 3vw;
+    font-family: "Inter", sans-serif;
     color: white;
     text-align: center;
+    margin: 12vh 0 0 0;
   }
   body .learn_more {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65vw;
-    height: 11vw;
-    background-color: white;
+    width: 55vw;
+    height: 3vw;
+    background-color: #36395D;
     border-radius: 5px;
+    padding: 3vh 1vh 3vh 1vh;
+    margin: 22vh 0 10vh 0;
   }
   body .learn_more a {
-    font-size: 4vw;
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration: none;
   }
 }
 @media only screen and (orientation: portrait) {
@@ -78,21 +94,27 @@
     font-size: 8vw;
     color: white;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
   }
   body .home_page .description {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 5vw;
+    font-family: "Inter", sans-serif;
     width: 65vw;
     height: 11vw;
     background-color: white;
     border-radius: 5px;
+    margin: -2vh 0 0 0;
+    padding: 0 1vh 0 1vh;
   }
   body .home_page .motto {
-    font-size: 4vw;
+    font-size: 5vw;
+    font-family: "Roboto", sans-serif;
     color: white;
     text-align: center;
+    margin: 12vh 0 0 0;
   }
   body .learn_more {
     display: flex;
@@ -100,10 +122,13 @@
     align-items: center;
     width: 65vw;
     height: 11vw;
-    background-color: white;
+    background-color: #36395D;
     border-radius: 5px;
   }
   body .learn_more a {
     font-size: 4vw;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration: none;
   }
 }/*# sourceMappingURL=style.css.map */

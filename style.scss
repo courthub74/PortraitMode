@@ -1,9 +1,15 @@
+// Fonts
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
 // Colors
 
 // Dark Blue
 $darkblue: #080E2F;
 // Next Green
 $nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
 
 // Mobile landscape
 @media only screen and (orientation: landscape) {
@@ -13,8 +19,11 @@ $nextgreen: #00313E;
         justify-content: center;
         align-items: center;
         background-color: #8b0000;
+        background-color: $darkblue;
         color: wheat;
         transition: .2s all ease-in;
+        gap: 1vh;
+        height: 200vh;
         .home_page {
             display: flex;
             flex-direction: column;
@@ -22,7 +31,7 @@ $nextgreen: #00313E;
             align-items: center;
             gap: 1vh;
             height: 100vh;
-            margin: 35vh 0 0 0;
+            margin: 15vh 0 0 0;
             #courdevelops_logo {
                 width: 20vw;
                 height: 20vw;
@@ -31,34 +40,45 @@ $nextgreen: #00313E;
                 font-size: 6vw;
                 color: white;
                 font-weight: bold;
+                font-family: 'Inter', sans-serif;
             }
             .description {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 4vw;
-                width: 65vw;
+                font-size: 3vw;
+                font-family: 'Inter', sans-serif;
+                color: $darkblue;
+                width: 55vw;
                 height: 11vw;
                 background-color: white;
                 border-radius: 5px;
+                margin: -8vh 0 0 0;
+                padding: 3vh 1vh 3vh 1vh;
             }
             .motto {
                 font-size: 3vw;
+                font-family: 'Inter', sans-serif;
                 color: white;
                 text-align: center;
+                margin: 12vh 0 0 0;
             }
         }
         .learn_more {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 65vw;
-                height: 11vw;
-                background-color: white;
+                width: 55vw;
+                height: 3vw;
+                background-color: $portfolios;
                 border-radius: 5px;
+                padding: 3vh 1vh 3vh 1vh;
+                margin: 22vh 0 10vh 0;
             a {
-                font-size: 4vw;
-                
+                font-size: 3vw;
+                font-family: 'Inter', sans-serif;
+                color: white;
+                text-decoration: none;
             }
         }
     }
@@ -87,21 +107,27 @@ $nextgreen: #00313E;
                 font-size: 8vw;
                 color: white;
                 font-weight: bold;
+                font-family: 'Inter', sans-serif;
             }
             .description {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 font-size: 5vw;
+                font-family: 'Inter', sans-serif;
                 width: 65vw;
                 height: 11vw;
                 background-color: white;
                 border-radius: 5px;
+                margin: -2vh 0 0 0;
+                padding: 0 1vh 0 1vh;
             }
             .motto {
-                font-size: 4vw;
+                font-size: 5vw;
+                font-family: 'Roboto', sans-serif;
                 color: white;
                 text-align: center;
+                margin: 12vh 0 0 0;
             }
         }
         .learn_more {
@@ -110,11 +136,13 @@ $nextgreen: #00313E;
                 align-items: center;
                 width: 65vw;
                 height: 11vw;
-                background-color: white;
+                background-color: $portfolios;
                 border-radius: 5px;
             a {
                 font-size: 4vw;
-                
+                font-family: 'Inter', sans-serif;
+                color: white;
+                text-decoration: none;
             }
         }
     }
