@@ -32,6 +32,8 @@ $portfolios: #36395D;
         display: flex;
         justify-content: space-between;
         gap: 15vw;
+        position: sticky;
+        // width: 100%;
         // position: sticky;
         /// COURDEVS TOP LOGO FOR SLIDE IN MENU
         .courdevs_slide_menu_logo {
@@ -61,11 +63,11 @@ $portfolios: #36395D;
             // background-color: aqua;
             justify-content: space-between;
             background-color: $darkblue;
-            position: sticky;
+            // position: sticky;
             top: 0;
             z-index: 98;
-            height: 15vh;
-            
+            height: 25vh;
+            // background-color: white;
             transition: 2s all ease-in-out;
             // scroll up description
             .you {
@@ -160,6 +162,10 @@ $portfolios: #36395D;
         opacity: 1;
         transition: .7s all ease-in;
     }
+    ////////////////////////////////////////
+    ////////////////////////////////////////
+    ////////////////////////////////////////
+    /// THE HOME PAGE PART
         .home_page {
             display: flex;
             flex-direction: column;
@@ -167,10 +173,10 @@ $portfolios: #36395D;
             align-items: center;
             gap: 1vh;
             height: 100vh;
-            margin: 15vh 0 0 0;
+            margin: 8vh 0 0 0;
             #courdevelops_logo {
-                width: 20vw;
-                height: 20vw;
+                width: 25vw;
+                height: 25vw;
             }
             .name {
                 font-size: 6vw;
@@ -250,6 +256,7 @@ $portfolios: #36395D;
                     border-radius: 5px;
                     padding: 3vw;
                     background-color: $darkblue;
+                    // background-color: white;
                     opacity: 0;
                     // position: fixed;
                 }
@@ -264,6 +271,7 @@ $portfolios: #36395D;
                 // background-color: aqua;
                 justify-content: space-between;
                 background-color: $darkblue;
+                
                 position: sticky;
                 top: 0;
                 z-index: 98;
@@ -313,6 +321,7 @@ $portfolios: #36395D;
                 }
                 // hamburger menu button
                 .hamburgermobile {
+                    // background-color: white;
                     // whole burger button
                     .burger {
                         display: flex;
@@ -322,6 +331,7 @@ $portfolios: #36395D;
                         height: 20vw;
                         border: none;
                         background-color: $darkblue;
+                        // background-color: white;
                         margin: 3vh -25vw 0 0vw;
                         // burger menu part
                         #top_hamburger {

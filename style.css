@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     gap: 15vw;
+    position: sticky;
   }
   body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo {
     display: flex;
@@ -38,10 +39,9 @@
     display: flex;
     justify-content: space-between;
     background-color: #080E2F;
-    position: sticky;
     top: 0;
     z-index: 98;
-    height: 15vh;
+    height: 25vh;
     transition: 2s all ease-in-out;
   }
   body .nav_section .the_top_nav .you {
@@ -123,11 +123,11 @@
     align-items: center;
     gap: 1vh;
     height: 100vh;
-    margin: 15vh 0 0 0;
+    margin: 8vh 0 0 0;
   }
   body .home_page #courdevelops_logo {
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
   }
   body .home_page .name {
     font-size: 6vw;
