@@ -123,14 +123,14 @@
     align-items: center;
     gap: 1vh;
     height: 100vh;
-    margin: 0 0 0 0;
+    margin: 0vh 0 0 0;
   }
   body .home_page #courdevelops_logo {
     width: 25vw;
     height: 25vw;
   }
   body .home_page .name {
-    font-size: 6vw;
+    font-size: 5vw;
     color: white;
     font-weight: bold;
     font-family: "Inter", sans-serif;
@@ -139,10 +139,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Inter", sans-serif;
     color: #080E2F;
-    width: 55vw;
+    width: 50vw;
     height: 11vw;
     background-color: white;
     border-radius: 5px;
@@ -150,7 +150,7 @@
     padding: 3vh 1vh 3vh 1vh;
   }
   body .home_page .motto {
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-align: center;
@@ -160,7 +160,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55vw;
+    width: 50vw;
     height: 3vw;
     background-color: #36395D;
     border-radius: 5px;
@@ -168,7 +168,7 @@
     margin: 22vh 0 10vh 0;
   }
   body .learn_more a {
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-decoration: none;
