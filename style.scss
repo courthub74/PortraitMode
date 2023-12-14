@@ -242,9 +242,6 @@ $portfolios: #36395D;
                 gap: 1vh;
                 height: 100%;
                 width: 100%;
-                .about_title {
-                    color: white;
-                }
             }
         }
     }
@@ -255,6 +252,7 @@ $portfolios: #36395D;
     * {
         margin: 0;
     }
+    // ALL THE PAGE TITLES
     body {
         display: flex;
         flex-direction: column;
@@ -461,6 +459,7 @@ $portfolios: #36395D;
             }
         }
         #about_page {
+            margin: 0vh 0 0 0;
             background-color: $nextgreen;
             display: flex;
             flex-direction: column;
@@ -469,8 +468,26 @@ $portfolios: #36395D;
             gap: 1vh;
             height: 100%;
             width: 100%;
-            .about_title {
-                color: white;
+            .about_page {
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                width: 100%;
+                margin: 5vh 0 0 15vw;
+                // Top Page Title
+                .page_titles {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 8vw;
+                    font-weight: bold;
+                    color: white;
+                }
+                .about_page {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 4vw;
+                    color: white;
+                    margin: 5vh 0 0 -.5vw;
+                    width: 80%;
+                }
             }
         }
     }

@@ -190,9 +190,6 @@
     height: 100%;
     width: 100%;
   }
-  * body #about_page .about_title {
-    color: white;
-  }
 }
 @media only screen and (orientation: portrait) {
   * {
@@ -366,6 +363,7 @@
     text-decoration: none;
   }
   body #about_page {
+    margin: 0vh 0 0 0;
     background-color: #00313E;
     display: flex;
     flex-direction: column;
@@ -375,7 +373,24 @@
     height: 100%;
     width: 100%;
   }
-  body #about_page .about_title {
+  body #about_page .about_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin: 5vh 0 0 15vw;
+  }
+  body #about_page .about_page .page_titles {
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
     color: white;
+  }
+  body #about_page .about_page .about_page {
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
+    color: white;
+    margin: 5vh 0 0 -0.5vw;
+    width: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
