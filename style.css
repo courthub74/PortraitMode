@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
 @media only screen and (orientation: landscape) {
-  body {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,13 +17,13 @@
     gap: 1vh;
     height: 200vh;
   }
-  body .nav_section {
+  * body .nav_section {
     display: flex;
     justify-content: space-between;
     gap: 15vw;
     position: sticky;
   }
-  body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo {
+  * body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,20 +36,21 @@
     background-color: #080E2F;
     opacity: 0;
   }
-  body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo.appear {
+  * body .nav_section .courdevs_slide_menu_logo #courdevs_top_logo.appear {
     opacity: 1;
     transition: 0.2s all ease-in;
   }
-  body .nav_section .the_top_nav {
+  * body .nav_section .the_top_nav {
     display: flex;
     justify-content: space-between;
     background-color: #080E2F;
+    margin: 40vh 0 0 0;
     top: 0;
     z-index: 98;
     height: 25vh;
     transition: 2s all ease-in-out;
   }
-  body .nav_section .the_top_nav .you {
+  * body .nav_section .the_top_nav .you {
     color: white;
     font-family: "Inter", sans-serif;
     text-align: center;
@@ -58,14 +64,14 @@
     width: 30vw;
     transition: 0.5s all ease-in-out;
   }
-  body .nav_section .the_top_nav .you #name {
+  * body .nav_section .the_top_nav .you #name {
     color: white;
     font-size: 3vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     margin: 0 0 0 0vw;
   }
-  body .nav_section .the_top_nav .you .desc_menu_box {
+  * body .nav_section .the_top_nav .you .desc_menu_box {
     background-color: #36395D;
     background-color: white;
     background-color: #080E2F;
@@ -73,12 +79,12 @@
     border-radius: 5px;
     border: 2px solid white;
   }
-  body .nav_section .the_top_nav .you .desc_menu_box #job_description {
+  * body .nav_section .the_top_nav .you .desc_menu_box #job_description {
     color: white;
     font-size: 2vw;
     font-family: "Roboto", sans-serif;
   }
-  body .nav_section .the_top_nav .hamburgermobile .burger {
+  * body .nav_section .the_top_nav .hamburgermobile .burger {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,56 +92,57 @@
     background-color: #080E2F;
     margin: 12vh 0vw 0 50vw;
   }
-  body .nav_section .the_top_nav .hamburgermobile .burger #top_hamburger {
+  * body .nav_section .the_top_nav .hamburgermobile .burger #top_hamburger {
     position: relative;
     width: 6vw;
     height: 6vw;
     transition: 1s all ease-in-out;
   }
-  body .nav_section .the_top_nav .hamburgermobile .burger #top_hamburger.dissapear {
+  * body .nav_section .the_top_nav .hamburgermobile .burger #top_hamburger.dissapear {
     opacity: 0;
     transition: 0.5s all ease-in-out;
   }
-  body .nav_section .the_top_nav .hamburgermobile .burger #hamburger_close {
+  * body .nav_section .the_top_nav .hamburgermobile .burger #hamburger_close {
     position: absolute;
     width: 15vw;
     height: 15vw;
     opacity: 0;
   }
-  body .nav_section .the_top_nav .hamburgermobile .burger #hamburger_close.appear {
+  * body .nav_section .the_top_nav .hamburgermobile .burger #hamburger_close.appear {
     transition: 0.5s all ease-in;
     opacity: 1;
     z-index: 100;
     background-color: #080E2F;
   }
-  body .the_top_nav.dissapear {
+  * body .nav_section .the_top_nav.dissapear {
     opacity: 0;
     transition: 1s all ease-out;
   }
-  body .the_top_nav.appear {
+  * body .nav_section .the_top_nav.appear {
     opacity: 1;
     transition: 0.7s all ease-in;
   }
-  body .home_page {
+  * body #home_page .home_page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1vh;
     height: 100vh;
-    margin: 0vh 0 0 0;
+    margin: 8vh 0 0 0;
   }
-  body .home_page #courdevelops_logo {
+  * body #home_page .home_page #courdevelops_logo {
     width: 25vw;
     height: 25vw;
   }
-  body .home_page .name {
+  * body #home_page .home_page .name {
     font-size: 5vw;
     color: white;
     font-weight: bold;
     font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
   }
-  body .home_page .description {
+  * body #home_page .home_page .description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,17 +153,17 @@
     height: 11vw;
     background-color: white;
     border-radius: 5px;
-    margin: -8vh 0 0 0;
+    margin: 5vh 0 0 0;
     padding: 3vh 1vh 3vh 1vh;
   }
-  body .home_page .motto {
+  * body #home_page .home_page .motto {
     font-size: 2vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-align: center;
     margin: 12vh 0 0 0;
   }
-  body .learn_more {
+  * body #home_page .learn_more {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,16 +172,32 @@
     background-color: #36395D;
     border-radius: 5px;
     padding: 3vh 1vh 3vh 1vh;
-    margin: 22vh 0 10vh 0;
+    margin: 20vh 0 10vh 0;
   }
-  body .learn_more a {
+  * body #home_page .learn_more a {
     font-size: 2vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-decoration: none;
   }
+  * body #about_page {
+    background-color: #00313E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100%;
+    width: 100%;
+  }
+  * body #about_page .about_title {
+    color: white;
+  }
 }
 @media only screen and (orientation: portrait) {
+  * {
+    margin: 0;
+  }
   body {
     display: flex;
     flex-direction: column;
@@ -286,26 +309,27 @@
     opacity: 1;
     transition: 0.7s all ease-in;
   }
-  body .home_page {
+  body #home_page .home_page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1vh;
-    height: 90vh;
-    margin: -14vh 0 0 0;
+    height: 100vh;
+    margin: -20vh 0 0 0;
   }
-  body .home_page #courdevelops_logo {
+  body #home_page .home_page #courdevelops_logo {
     width: 40vw;
     height: 40vw;
   }
-  body .home_page .name {
+  body #home_page .home_page .name {
     font-size: 8vw;
     color: white;
     font-weight: bold;
     font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
   }
-  body .home_page .description {
+  body #home_page .home_page .description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,17 +339,17 @@
     height: 11vw;
     background-color: white;
     border-radius: 5px;
-    margin: -2vh 0 0 0;
+    margin: 0vh 0 0 0;
     padding: 0 1vh 0 1vh;
   }
-  body .home_page .motto {
+  body #home_page .home_page .motto {
     font-size: 5vw;
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: center;
-    margin: 12vh 0 0 0;
+    margin: 10vh 0 0 0;
   }
-  body .learn_more {
+  body #home_page .learn_more {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,12 +357,25 @@
     height: 11vw;
     background-color: #36395D;
     border-radius: 5px;
-    margin: -5vh 0 0 0;
+    margin: -10vh 0 10vh 0;
   }
-  body .learn_more a {
+  body #home_page .learn_more a {
     font-size: 4vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-decoration: none;
+  }
+  body #about_page {
+    background-color: #00313E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100%;
+    width: 100%;
+  }
+  body #about_page .about_title {
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
