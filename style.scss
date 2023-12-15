@@ -233,21 +233,31 @@ $portfolios: #36395D;
                     }
                 }
             }
-            #about_page {
-                background-color: $nextgreen;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 1vh;
-                height: 100%;
-                width: 100%;
-            }
+            ///////////////////////////////////////
+            ///////////////////////////////////////
+            ///////////////////////////////////////
+            ///////////////////////////////////////
+            // ABOUT SECTION (LANDSCAPE)
         }
     }
 }
 
-// Mobile portrait
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+/// 
+/// 
+/// 
+// MOBILE PORTRAIT 
 @media only screen and (orientation: portrait) {
     * {
         margin: 0;
@@ -424,7 +434,7 @@ $portfolios: #36395D;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-size: 5vw;
+                    font-size: 4vw;
                     font-family: 'Inter', sans-serif;
                     width: 65vw;
                     height: 11vw;
@@ -434,7 +444,7 @@ $portfolios: #36395D;
                     padding: 0 1vh 0 1vh;
                 }
                 .motto {
-                    font-size: 5vw;
+                    font-size: 4vw;
                     font-family: 'Roboto', sans-serif;
                     color: white;
                     text-align: center;
@@ -458,40 +468,71 @@ $portfolios: #36395D;
                 }
             }
         }
-        #about_page {
-            margin: 0vh 0 0 0;
-            background-color: $nextgreen;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 1vh;
-            height: 100%;
-            width: 100%;
-            .about_page {
+        ////////////////////////////////////////
+        ////////////////////////////////////////
+        ////////////////////////////////////////
+        ////////////////////////////////////////
+        ////////////////////////////////////////
+        /// ABOUT SECTION (PORTRAIT)
+        #about_section {
+            // Just for scroll landing
+            .about_section {
+                // The section background
+                background-color: $nextgreen;
+                height: 100vh;
+                width: 100vw;
                 display: flex;
                 flex-direction: column;
-                justify-content: left;
-                width: 100%;
-                margin: 5vh 0 0 15vw;
-                // Top Page Title
-                .page_titles {
+                // justify-content: left;
+                // align-items: center;
+                gap: 1vh;
+                // About Title 
+                .section_title {
+                    color: white;
                     font-family: 'Inter', sans-serif;
                     font-size: 8vw;
                     font-weight: bold;
-                    color: white;
                 }
-                .about_page {
-                    font-family: 'Inter', sans-serif;
-                    font-size: 4vw;
-                    color: white;
-                    margin: 5vh 0 0 -.5vw;
-                    width: 80%;
+                // About Content
+                .about_content {
+                    margin: 5vh 0 0 12vw;
+                    width: 75%;
+                    .first_para_about {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        margin: 3vh 0 0 0;
+                    }
+                    .brand_name_about {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        margin: 3vh 0 0 0;
+                    }
                     #about_page_logo {
                         margin: 3vh 0 0 0;
-                        width: 30vw;
-                        height: 30vw;
+                        width: 35vw;
+                        height: 35vw;
                     }
+                    .passion_block {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        margin: 3vh 0 0 0;
+                    }
+                    .user_interface {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        margin: 3vh 0 0 0;
+                    }
+                    .gig_econ {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        margin: 3vh 0 0 0;
+                    }
+                    .web_3 {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        margin: 3vh 0 0 0;
+                    }      
                 }
             }
         }

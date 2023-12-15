@@ -180,16 +180,6 @@
     color: white;
     text-decoration: none;
   }
-  * body #about_page {
-    background-color: #00313E;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    height: 100%;
-    width: 100%;
-  }
 }
 @media only screen and (orientation: portrait) {
   * {
@@ -330,7 +320,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
     width: 65vw;
     height: 11vw;
@@ -340,7 +330,7 @@
     padding: 0 1vh 0 1vh;
   }
   body #home_page .home_page .motto {
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: center;
@@ -362,40 +352,58 @@
     color: white;
     text-decoration: none;
   }
-  body #about_page {
-    margin: 0vh 0 0 0;
+  body #about_section .about_section {
     background-color: #00313E;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1vh;
-    height: 100%;
-    width: 100%;
   }
-  body #about_page .about_page {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 100%;
-    margin: 5vh 0 0 15vw;
-  }
-  body #about_page .about_page .page_titles {
+  body #about_section .about_section .section_title {
+    color: white;
     font-family: "Inter", sans-serif;
     font-size: 8vw;
     font-weight: bold;
-    color: white;
   }
-  body #about_page .about_page .about_page {
+  body #about_section .about_section .about_content {
+    margin: 5vh 0 0 12vw;
+    width: 75%;
+  }
+  body #about_section .about_section .about_content .first_para_about {
+    color: white;
     font-family: "Inter", sans-serif;
-    font-size: 4vw;
-    color: white;
-    margin: 5vh 0 0 -0.5vw;
-    width: 80%;
-  }
-  body #about_page .about_page .about_page #about_page_logo {
     margin: 3vh 0 0 0;
-    width: 30vw;
-    height: 30vw;
+  }
+  body #about_section .about_section .about_content .brand_name_about {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 3vh 0 0 0;
+  }
+  body #about_section .about_section .about_content #about_page_logo {
+    margin: 3vh 0 0 0;
+    width: 35vw;
+    height: 35vw;
+  }
+  body #about_section .about_section .about_content .passion_block {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 3vh 0 0 0;
+  }
+  body #about_section .about_section .about_content .user_interface {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 3vh 0 0 0;
+  }
+  body #about_section .about_section .about_content .gig_econ {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 3vh 0 0 0;
+  }
+  body #about_section .about_section .about_content .web_3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 3vh 0 0 0;
   }
 }/*# sourceMappingURL=style.css.map */
