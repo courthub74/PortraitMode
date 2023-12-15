@@ -349,6 +349,7 @@
   body #home_page .learn_more a {
     font-size: 4vw;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
     color: white;
     text-decoration: none;
   }
@@ -394,16 +395,33 @@
   body #about_section .about_section .about_content .user_interface {
     color: white;
     font-family: "Inter", sans-serif;
-    margin: 3vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   body #about_section .about_section .about_content .gig_econ {
     color: white;
     font-family: "Inter", sans-serif;
-    margin: 3vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   body #about_section .about_section .about_content .web_3 {
     color: white;
     font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  body #about_section .about_section .about_content .resume_button_div {
     margin: 3vh 0 0 0;
+  }
+  body #about_section .about_section .about_content .resume_button_div #dload_resume {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #507E81;
+    background-color: #146166;
+    border-radius: 5px;
+    width: 70vw;
+    height: 10vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */

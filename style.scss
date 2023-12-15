@@ -10,6 +10,10 @@ $darkblue: #080E2F;
 $nextgreen: #00313E;
 // Portfolio backgrounds
 $portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
 
 // Mobile landscape
 @media only screen and (orientation: landscape) {
@@ -463,6 +467,7 @@ $portfolios: #36395D;
                 a {
                     font-size: 4vw;
                     font-family: 'Inter', sans-serif;
+                    font-weight: bold;
                     color: white;
                     text-decoration: none;
                 }
@@ -521,17 +526,34 @@ $portfolios: #36395D;
                     .user_interface {
                         color: white;
                         font-family: 'Inter', sans-serif;
-                        margin: 3vh 0 0 0;
+                        margin: 2vh 0 0 0;
                     }
                     .gig_econ {
                         color: white;
                         font-family: 'Inter', sans-serif;
-                        margin: 3vh 0 0 0;
+                        margin: 2vh 0 0 0;
                     }
                     .web_3 {
                         color: white;
                         font-family: 'Inter', sans-serif;
+                        margin: 2vh 0 0 0;
+                    }
+                    .resume_button_div {
                         margin: 3vh 0 0 0;
+                        #dload_resume {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            color: white;
+                            background-color: $resumebutton;
+                            background-color: $skillsteal;
+                            border-radius: 5px;
+                            width: 70vw;
+                            height: 10vw;
+                            text-decoration: none;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                        }
                     }      
                 }
             }
