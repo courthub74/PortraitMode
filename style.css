@@ -15,7 +15,6 @@
     color: wheat;
     transition: 0.2s all ease-in;
     gap: 1vh;
-    height: 200vh;
   }
   * body .nav_section {
     display: flex;
@@ -44,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #080E2F;
-    margin: 40vh 0 0 0;
+    margin: 5vh 0 0 0;
     top: 0;
     z-index: 98;
     height: 25vh;
@@ -129,7 +128,7 @@
     align-items: center;
     gap: 1vh;
     height: 100vh;
-    margin: 8vh 0 0 0;
+    margin: 4vh 0 0 0;
   }
   * body #home_page .home_page #courdevelops_logo {
     width: 25vw;
@@ -177,8 +176,80 @@
   * body #home_page .learn_more a {
     font-size: 2vw;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
     color: white;
     text-decoration: none;
+  }
+  * body #about_section .about_section {
+    background-color: #00313E;
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  * body #about_section .about_section .section_title {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  * body #about_section .about_section .about_content {
+    margin: 15vh 0 0 12vw;
+    width: 70%;
+  }
+  * body #about_section .about_section .about_content .first_para_about {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body #about_section .about_section .about_content .brand_name_about {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body #about_section .about_section .about_content #about_page_logo {
+    margin: 5vh 0 0 0;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #about_section .about_section .about_content .passion_block {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 7vh 0 0 0;
+  }
+  * body #about_section .about_section .about_content .user_interface {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body #about_section .about_section .about_content .gig_econ {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body #about_section .about_section .about_content .web_3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body #about_section .about_section .about_content .resume_button_div {
+    margin: 10vh 0 0 0vw;
+  }
+  * body #about_section .about_section .about_content .resume_button_div #dload_resume {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #507E81;
+    background-color: #146166;
+    border-radius: 5px;
+    width: 50vw;
+    height: 5vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (orientation: portrait) {

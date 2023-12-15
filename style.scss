@@ -31,18 +31,17 @@ $skillsteal: #146166;
             color: wheat;
             transition: .2s all ease-in;
             gap: 1vh;
-            height: 200vh;
             /////////////////////////////////////
             /////////////////////////////////////
             /////////////////////////////////////
             /// NAV SECTION
             .nav_section {
-            display: flex;
-            justify-content: space-between;
-            gap: 15vw;
-            position: sticky;
-            // width: 100%;
-            // position: sticky;
+                display: flex;
+                justify-content: space-between;
+                gap: 15vw;
+                position: sticky;
+                // width: 100%;
+                // position: sticky;
             /// COURDEVS TOP LOGO FOR SLIDE IN MENU
             .courdevs_slide_menu_logo {
                 // background-color: yellowgreen;
@@ -72,7 +71,7 @@ $skillsteal: #146166;
                 justify-content: space-between;
                 background-color: $darkblue;
                 // background-color: yellow;
-                margin: 40vh 0 0 0;
+                margin: 5vh 0 0 0;
                 // position: sticky;
                 top: 0;
                 z-index: 98;
@@ -178,6 +177,7 @@ $skillsteal: #146166;
         /// THE HOME PAGE PART
         /// The ID'd section
             #home_page {
+                // Just for Scroll landing
                 .home_page {
                     display: flex;
                     flex-direction: column;
@@ -185,7 +185,7 @@ $skillsteal: #146166;
                     align-items: center;
                     gap: 1vh;
                     height: 100vh;
-                    margin: 8vh 0 0 0;
+                    margin: 4vh 0 0 0;
                     #courdevelops_logo {
                         width: 25vw;
                         height: 25vw;
@@ -232,6 +232,7 @@ $skillsteal: #146166;
                     a {
                         font-size: 2vw;
                         font-family: 'Inter', sans-serif;
+                        font-weight: bold;
                         color: white;
                         text-decoration: none;
                     }
@@ -242,6 +243,83 @@ $skillsteal: #146166;
             ///////////////////////////////////////
             ///////////////////////////////////////
             // ABOUT SECTION (LANDSCAPE)
+            #about_section {
+                // Just for scroll landing
+                .about_section {
+                    // The section background
+                    background-color: $nextgreen;
+                    height: 200vh;
+                    width: 100vw;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1vh;
+                    // About Title 
+                    .section_title {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 5vw;
+                        font-weight: bold;
+                    }
+                    // About Content
+                    .about_content {
+                        margin: 15vh 0 0 12vw;
+                        width: 70%;
+                        .first_para_about {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            margin: 5vh 0 0 0;
+                        }
+                        .brand_name_about {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            margin: 5vh 0 0 0;
+                        }
+                        #about_page_logo {
+                            margin: 5vh 0 0 0;
+                            width: 20vw;
+                            height: 20vw;
+                        }
+                        .passion_block {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            margin: 7vh 0 0 0;
+                        }
+                        .user_interface {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            margin: 5vh 0 0 0;
+                        }
+                        .gig_econ {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            margin: 5vh 0 0 0;
+                        }
+                        .web_3 {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            margin: 5vh 0 0 0;
+                        }
+                        .resume_button_div {
+                            margin: 10vh 0 0 0vw;
+                            #dload_resume {
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                color: white;
+                                background-color: $resumebutton;
+                                background-color: $skillsteal;
+                                border-radius: 5px;
+                                width: 50vw;
+                                height: 5vw;
+                                text-decoration: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
