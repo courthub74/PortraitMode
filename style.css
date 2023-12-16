@@ -440,6 +440,7 @@
   }
   body #about_section .about_section .about_content {
     margin: 5vh 0 0 12vw;
+    margin: 5vh 0 0 52vw;
     width: 75%;
   }
   body #about_section .about_section .about_content .first_para_about {
