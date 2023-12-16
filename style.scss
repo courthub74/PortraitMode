@@ -562,7 +562,7 @@ $skillsteal: #146166;
             .about_section {
                 // The section background
                 background-color: $nextgreen;
-                height: 120vh;
+                height: 110vh;
                 width: 100vw;
                 display: flex;
                 flex-direction: column;
@@ -634,6 +634,41 @@ $skillsteal: #146166;
                                     align-items: center;
                         }
                     }      
+                }
+            }
+        }
+        //////////////////////////////////////////
+        //////////////////////////////////////////
+        //////////////////////////////////////////
+        //////////////////////////////////////////
+        //////////////////////////////////////////
+        //////////////////////////////////////////
+        /// PORTFOLIO SECTION (PORTRAIT)
+        #portfolio_section {
+            // Just for scroll landing
+            .portfolio_section {
+                // the section background
+                background-color: $darkblue;
+                // background-color: wheat;
+                height: 110vh;
+                width: 100vh;
+                display: flex;
+                flex-direction: column;
+                gap: 1vh;
+                // Portfolio Content
+                .portfolio_content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: left;
+                    margin: 15vh 0 0 0;
+                    // Portfolio Title
+                    .section_title {
+                        color: white;
+                        // color: #080E2F;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 8vw;
+                        font-weight: bold;
+                    }
                 }
             }
         }

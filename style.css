@@ -426,7 +426,7 @@
   }
   body #about_section .about_section {
     background-color: #00313E;
-    height: 120vh;
+    height: 110vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -494,5 +494,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  body #portfolio_section .portfolio_section {
+    background-color: #080E2F;
+    height: 110vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  body #portfolio_section .portfolio_section .portfolio_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 15vh 0 0 0;
+  }
+  body #portfolio_section .portfolio_section .portfolio_content .section_title {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
   }
 }/*# sourceMappingURL=style.css.map */
